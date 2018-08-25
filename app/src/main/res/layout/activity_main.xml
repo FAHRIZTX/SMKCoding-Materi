@@ -6,4 +6,31 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
+        <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="bottom">
+        <Button
+            android:id="@+id/btnSatu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SHOW FRAGMENT 1"/>
+        <Button
+            android:id="@+id/btnDua"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SHOW FRAGMENT 2"/>
+    </LinearLayout>
+
 </LinearLayout>
